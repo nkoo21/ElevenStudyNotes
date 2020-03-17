@@ -3,7 +3,7 @@ package eleven.datastructure.queue;
 import java.util.*;
 
 /**
- * 循环队列
+ * 循环队列简单实现
  */
 public class ElevenArrayQueue<E> {
     final Object[] items;

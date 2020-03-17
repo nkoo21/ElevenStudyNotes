@@ -2,14 +2,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <parent>
-        <artifactId>JDK</artifactId>
-        <groupId>eleven</groupId>
-        <version>1.0-SNAPSHOT</version>
-    </parent>
+    <groupId>eleven</groupId>
+    <version>1.0-SNAPSHOT</version>
     <modelVersion>4.0.0</modelVersion>
-
     <artifactId>JDK8</artifactId>
 
-
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+    </properties>
 </project>
