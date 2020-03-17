@@ -16,5 +16,6 @@
     <modules>
         <module>DataStructureAndAlgorithm</module>
         <module>DesignPatterns</module>
+        <module>JDK</module>
     </modules>
 </project>

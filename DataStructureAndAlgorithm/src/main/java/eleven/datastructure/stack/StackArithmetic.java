@@ -1,4 +1,4 @@
-package eleven.datastructure;
+package eleven.datastructure.stack;
 
 import java.util.Stack;
 
