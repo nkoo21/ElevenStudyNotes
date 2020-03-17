@@ -1,6 +1,5 @@
 package eleven.datastructure.queue;
 
-import java.lang.reflect.Array;
 import java.util.*;
 
 /**
@@ -33,7 +32,7 @@ public class ElevenArrayQueue<E> {
     }
 
     public void enqueue(E e) {
-        if(count == items.length){
+        if (count == items.length) {
             throw new IllegalMonitorStateException("queue already full");
         }
         items[rear] = e;
@@ -42,6 +41,7 @@ public class ElevenArrayQueue<E> {
     }
 
     public E dequeue() {
+        if(count == 0) return null;
         E e = (E) items[front];
         items[front] = null;
         if (++front == items.length) front = 0;//数组末尾
@@ -67,6 +67,5 @@ public class ElevenArrayQueue<E> {
             queue.enqueue(i);
             System.out.println(Arrays.toString(queue.items));
         }
-//        System.out.println(Arrays.toString(queue.items));
     }
 }
